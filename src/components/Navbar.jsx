@@ -21,7 +21,7 @@ export default function Navbar() {
 <nav className="bg-white fixed w-full z-20 top-0  border-b border-default">
   <div className="max-w-screen-xl flex items-center justify-between mx-auto p-2">
     <a className="flex items-center space-x-3 ">
-      <img src="../src/assets/route.png" className="h-9 rounded-xl" alt="route posts" />
+      <img src='../src/assets/route.png' className="h-9 rounded-xl" alt="route posts" />
       <span className="self-center text-xl text-heading whitespace-nowrap font-extrabold">Route Posts</span>
     </a>
     <div className="items-center justify-between" id="navbar-sticky">
