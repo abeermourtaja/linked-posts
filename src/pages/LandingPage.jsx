@@ -2,16 +2,14 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import Login from '../components/Login'
-import Register from '../components/register'
+import Register from '../components/Register'
 
 export default function LandingPage() {
     let [login,setLogin]= useState(true);
     function openLogin(){
         setLogin(true);
     }
-    function openLogin(){
-        setLogin(true);
-    }
+ 
     function openRegister(){
         setLogin(false);
     }
