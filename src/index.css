@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@plugin './hero.js';
+@source '../node_modules/@heroui/theme/dist/**/*.{js,jsx}';
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-primaryapp:#00298D;
+  --color-textPrimary:#1877f2;
+  --color-secondary:#1d293d;
+  --color-background:#e7f3ff;
+  --color-greyText:#45556c;
+  --color-border:#dadcdf;
+  --color-backgroundDefault:#f8fafc;
+  --font-sans: 'Cairo';
+}
+
+body{
+  font-family: 'Cairo';
+  background-color: #f0f2f5;
+  min-height:100vh;
+}
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+}
